@@ -110,6 +110,19 @@ Example iteration goal:
 | Observability | Langfuse |
 | Evaluation | custom IR metrics, RAGAs |
 
+## Local Quickstart
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
+python scripts/run_search.py
+streamlit run precedentiq/dashboard/app.py
+```
+
+The current MVP runs on a small sample Canadian case corpus and uses deterministic retrieval/generation, so no API keys are required. The architecture is designed so the mock corpus can be replaced with the A2AJ Hugging Face dataset and real embedding/reranking providers later.
+
 ## Roadmap
 
 - Build SCC-only MVP with English decisions.

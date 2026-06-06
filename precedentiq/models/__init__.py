@@ -1,0 +1,1 @@
+"""PrecedentIQ data models."""

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+plotly
+pandas
+numpy
+scikit-learn
+pydantic
+python-dotenv
+rank-bm25
+pytest

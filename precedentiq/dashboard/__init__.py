@@ -1,0 +1,1 @@
+"""PrecedentIQ dashboard package."""
